@@ -1,0 +1,64 @@
+# =========================
+# Node / React Project
+# =========================
+
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+
+# =========================
+# Database / Environment
+# =========================
+
+# Local database files (SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# =========================
+# OS / Editor Files
+# =========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode / JetBrains IDEs
+.vscode/
+.idea/
+
+# =========================
+# Testing / Coverage
+# =========================
+
+coverage/
+*.lcov
+
+# =========================
+# Misc
+# =========================
+
+# Temporary files
+*.tmp
+*.swp
